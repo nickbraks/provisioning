@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# -- Provision provided by Theo Theunissen --
-wget -qO- https://raw.githubusercontent.com/theotheu/provisioning/master/run.sh | bash
-
 # Get packages to be updated
 sudo apt-get -y update
 
