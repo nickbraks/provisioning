@@ -1,13 +1,10 @@
 #!/usr/bin/env bash
 
-#Change date/time
-sudo date -d date-d"+3 days"
-
 # Get packages to be updated
-sudo apt-get -y --force-yes update
+sudo apt-get -y update
 
 # Upgrade packages recieved from update
-sudo apt-get -y --force-yes upgrade
+sudo apt-get -y upgrade
 
 # -- Backend -- 
 
