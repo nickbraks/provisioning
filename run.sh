@@ -9,7 +9,7 @@ sudo apt-get -y upgrade
 # -- Backend -- 
 
 # Install Java -> Java 8 is required.
-sudo apt-get install openjdk-8-jdk
+sudo apt-get -y install openjdk-8-jdk
 
 # Install maven
 sudo apt-get -y install maven
