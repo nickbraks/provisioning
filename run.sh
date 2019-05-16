@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+#Change date/time
+sudo date -d date-d"+3 days"
+
 # Get packages to be updated
 sudo apt-get -y --force-yes update
 
