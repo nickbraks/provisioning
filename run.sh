@@ -49,13 +49,12 @@ sudo apt-get -y install npm
 # Install angular
 sudo npm install -g @angular/cli@latest
 
-# Make project with latest angular files
-sudo ng new researchtool --routing=false --style=css 
-
 # Remove made src map and put the researchetool frontend from bitbucket 
-cd researchtool
-sudo rm -rf src
-sudo git clone https://git.icaprojecten.nl/stash/scm/ntjaoy/onderzoekstool-frontend.git src
+sudo git clone https://git.icaprojecten.nl/stash/scm/ntjaoy/onderzoekstool-frontend.git
+
+# Install all dependencies for the project
+cd ~/onderzoekstool-frontend/
+sudo npm install
 
 # Serve
 sudo ng serve --port=80 --host=node158.tezzt.nl
