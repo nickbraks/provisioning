@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # Get packages to be updated
-sudo apt-get -y update
+sudo apt-get -y --force-yes update
 
 # Upgrade packages recieved from update
-sudo apt-get -y upgrade
+sudo apt-get -y --force-yes upgrade
 
 # -- Backend -- 
 
